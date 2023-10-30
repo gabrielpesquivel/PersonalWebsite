@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
-    background: #203bd8;
+    background: #080808;
     color: #fff;
 }
 #header{
@@ -14,4 +14,7 @@ body {
     background-image: url(images/wallpaper.jpg);
     background-size: cover;
     background-position: center;
+}
+.container {
+    padding: 10px 10%;
 }
