@@ -8,3 +8,10 @@ body {
     background: #203bd8;
     color: #fff;
 }
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
