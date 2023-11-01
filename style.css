@@ -87,5 +87,19 @@ nav ul li a:hover::after {
 
 .row{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 50%;
+    padding-left: 50px;
+}
+
+.about-col-2{
+    flex-basis: 60%;
 }
