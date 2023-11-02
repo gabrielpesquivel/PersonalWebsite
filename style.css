@@ -166,7 +166,7 @@ nav ul li a:hover::after {
 .portfolio-projects{
     display: grid;
     grid-template-columns: repeat(autofit, minmax(200px, 1fr));
-    grid-gap: 20px;
+    grid-gap: 10px;
     margin-top: 50px;
 }
 
@@ -176,6 +176,7 @@ nav ul li a:hover::after {
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
+    text-align: center;
     transition: background 0.5s, transform 0.5s;
 }
 
