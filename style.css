@@ -97,6 +97,7 @@ nav ul li a:hover::after {
 }
 .about-col-1 img{
     width: 75%;
+    border-radius: 15px;
     padding-left: 10px;
 }
 
