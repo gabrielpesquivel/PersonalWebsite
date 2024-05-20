@@ -1,0 +1,15 @@
+.skills {
+  background: #242424; /* Dark section background */
+  padding: 60px 20px;
+  color: white;
+}
+
+.skills h2 {
+  text-align: center;
+}
+
+.skills div {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}

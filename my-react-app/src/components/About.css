@@ -1,0 +1,14 @@
+.about {
+  background: #1e1e1e; /* Dark section background */
+  padding: 60px 20px;
+  color: white;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto;
+}

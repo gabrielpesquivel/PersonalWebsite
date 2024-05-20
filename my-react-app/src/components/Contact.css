@@ -1,0 +1,15 @@
+.contact {
+  background: #1e1e1e; /* Dark section background */
+  padding: 60px 20px;
+  color: white;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact div {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}

@@ -1,0 +1,15 @@
+.projects {
+  background: #1e1e1e; /* Dark section background */
+  padding: 60px 20px;
+  color: white;
+}
+
+.projects h2 {
+  text-align: center;
+}
+
+.projects div {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
