@@ -8,4 +8,3 @@ Requirements (will grow):
 - Showcase my skills as a software engineer
 - Showcase my resume and portfolio
 - Be interactive and engaging
-- 
