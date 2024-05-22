@@ -1,15 +1,45 @@
 .experience {
-  background: #242424; /* Dark section background */
-  padding: 60px 20px;
-  color: white;
+  padding: 20px;
+  text-align: center; /* Center the text horizontally */
 }
 
 .experience h2 {
-  text-align: center;
+  margin-bottom: 20px;
 }
 
-.experience div {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: left;
+.experience-item {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin-bottom: 20px;
+  justify-content: center; /* Center the entire content horizontally */
+}
+
+.experience-image {
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+  margin-left: 270px; /* Space between image and content */
+  margin-right: 50px;
+  border-radius: 8px; /* Optional: for rounded corners */
+}
+
+.experience-content {
+  flex: 1; /* Take up remaining space */
+  text-align: left; /* Align text to the left within the content box */
+}
+
+.experience-content h3 {
+  margin: 0 0 10px 0;
+}
+
+.experience-content p {
+  margin: 5px 0;
+}
+
+.experience-content ul {
+  margin: 10px 0 0 20px;
+  padding: 0;
+}
+
+.experience-content li {
+  margin-bottom: 5px;
 }
