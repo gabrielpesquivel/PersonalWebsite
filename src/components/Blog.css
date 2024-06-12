@@ -22,4 +22,9 @@
     font-size: 0.9em;
     margin-bottom: 10px;
   }
+
+  .blog-content {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
   
