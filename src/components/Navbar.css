@@ -20,3 +20,21 @@
   color: white;
   text-decoration: none;
 }
+
+.navbar .home-link {
+  font-weight: bold;
+  color: white;
+
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase; /* Optional: makes the text uppercase */
+}
+
+.navbar .blog-link {
+  font-weight: bold;
+  color: white;
+
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase; /* Optional: makes the text uppercase */
+}
