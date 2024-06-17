@@ -1,6 +1,8 @@
 .experience {
   padding: 20px;
-  text-align: center; /* Center the text horizontally */
+  background: #1e1e1e; /* Dark section background */
+  color: white;
+  text-align: center;
 }
 
 .experience h2 {
@@ -9,37 +11,28 @@
 
 .experience-item {
   display: flex;
-  align-items: center; /* Center items vertically */
-  margin-bottom: 20px;
-  justify-content: center; /* Center the entire content horizontally */
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px; /* Adjust as necessary */
+  margin: 0 auto;
+  position: relative;
 }
 
 .experience-image {
-  width: 100px; /* Adjust the size as needed */
+  max-width: 200px;
   height: auto;
-  margin-left: 270px; /* Space between image and content */
-  margin-right: 50px;
-  border-radius: 8px; /* Optional: for rounded corners */
+  border-radius: 8px;
+  position: absolute;
+  left: -150px; /* Adjust as necessary to position image */
+}
+
+.experience-content-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .experience-content {
-  flex: 1; /* Take up remaining space */
-  text-align: left; /* Align text to the left within the content box */
-}
-
-.experience-content h3 {
-  margin: 0 0 10px 0;
-}
-
-.experience-content p {
-  margin: 5px 0;
-}
-
-.experience-content ul {
-  margin: 10px 0 0 20px;
-  padding: 0;
-}
-
-.experience-content li {
-  margin-bottom: 5px;
+  max-width: 800px; /* Adjust max-width as needed */
+  text-align: center; /* Center text within the content box */
 }

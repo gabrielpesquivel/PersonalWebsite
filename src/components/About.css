@@ -2,6 +2,10 @@
   background: #1e1e1e; /* Dark section background */
   padding: 60px 20px;
   color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about h2 {
@@ -11,17 +15,27 @@
 .about-content {
   display: flex;
   align-items: center;
+  justify-content: center;
+  max-width: 1000px; /* Adjust as necessary */
+  margin: 0 auto;
+  position: relative;
 }
-
 
 .about-image {
   max-width: 200px;
   height: auto;
   border-radius: 8px;
-  margin-right: 50px;
-  margin-left: 170px;
+  position: absolute;
+  left: -220px; /* Adjust as necessary to position image */
+}
+
+.about-text-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .about-text {
-  max-width: 850px; /* Optional: Adjust as needed for text width */
+  max-width: 850px;
+  text-align: center;
 }
