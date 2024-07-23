@@ -4,6 +4,25 @@ import './Blog.css'; // Add your CSS file for styling
 const Blog = () => {
   const posts = [
     {
+      id: 2,
+      title: 'Blog Post 2: The Start of my Personal Finance Journey',
+      date: 'July 23, 2024',
+      content: 'It\'s no secret that the personal finances of a student are usually not in the best shape they could be in. Mine are no exception. It\'s not for a lack ' +
+      'of knowledge or resources, but more so that I viewed my dollar as best serving me now whilst I am studying rather than in the future. ' + 
+      'I was of the thought process that sacrificing my current experiences (going out with friends, eating well, travelling) would not be worth ' +
+      'the few thousand dollars I would eventually save. In many ways, I still believe this to be true as $1000 right now means a whole lot more to me ' +
+      'in my youth than it will in a few years time when I am earning a full-time salary. \n\n ' +
+      'Upon reflecting on this, I thought back to a lecturer I had in my second year of university when doing a software engineering course. A few times he mentioned ' +
+      'a company he had co-founded called pearler and how it was an accessible way to enter into the stock market. I investigated further, ' +
+      'signing up for an account and brushing up on my knowledge of ETF\'s, stocks and bonds. What really caught my attention was a tool they called ' +
+      'micro-investing, which allowed me to invest any small sum of money I had into a diversified portfolio. \n\n This was a game changer for me. ' +
+      'I came to the realisation that I could infact leverage compound interest and the time I had on my side without removing all the social experiences I enjoyed. ' +
+      'I would be able to get the ball rolling on my personal finance journey without having to make any significant sacrifices.\n\n This is all very exciting to me and ' +
+      'I very much forward to having more pride in my current financial situation. \n\n Beyond this revelation ' +
+      ' I have to admire what a beautiful piece of software pearler is. It is simple, effective and has a refined attention to the user experience. I definitely will be ' +
+      'picking up a few pointers from there for my own projects. \n\n Gabriel'
+    },
+    {
       id: 1,
       title: 'Blog Post 1: Interests - Tech Related & Not',
       date: 'June 12, 2024',
