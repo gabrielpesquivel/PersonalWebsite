@@ -19,7 +19,7 @@ function Experience() {
             <p>Ernst & Young (EY), George St</p>
             <ul>
               <li>Selected as an incoming participant to EY’s summer vacationer program in the technology consulting stream.</li>
-              <li>Role object to conduct data analysis and develop machine learning models to support business decisions and
+              <li>Role objective to conduct data analysis and develop machine learning models to support business decisions and
               optimize operations.</li>
             </ul>
           </div>
