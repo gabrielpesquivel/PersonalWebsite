@@ -11,7 +11,7 @@ function Contact() {
         LinkedIn: <a href="https://www.linkedin.com/in/gabriel-esquivel-9a65a4209">linkedin.com/in/gabriel-esquivel-9a65a4209</a>
       </p>
       <p>
-        GitHub: <a href="https://github.com/gabidonprime">github.com/gabidonprime</a>
+        GitHub: <a href="https://github.com/gabrielpesquivel">github.com/gabrielpesquivel</a>
       </p>
       <p>
         Leetcode: <a href="https://leetcode.com/gabidonprime">leetcode.com/gabidonprime</a>
