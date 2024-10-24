@@ -5,13 +5,14 @@ import sunswiftImage from './Images/sunswift.png'; // Path to your image
 import unswImage from './Images/unsw.jpeg'; // Path to your image
 import transgridImage from './Images/transgrid.png'; // Path to your image
 import EYImage from './Images/EY.png'; // Path to your image
+import OutlierImage from './Images/Outlier.png'; // Path to your image
 
 function Experience() {
   return (
     <section id="experience" className="experience">
       <h2>Experience</h2>
       <div className="experience-item">
-        <img src={EYImage} alt="Transgrid" className="experience-image" />
+        <img src={EYImage} alt="EY" className="experience-image" />
         <div className="experience-content-wrapper">
           <div className="experience-content">
             <h3>AI and Data Technology Consultant - Vacationer Program </h3>
@@ -26,6 +27,20 @@ function Experience() {
         </div>
       </div>
       <div className="experience-item">
+        <img src={OutlierImage} alt="Outlier" className="experience-image" />
+        <div className="experience-content-wrapper">
+          <div className="experience-content">
+            <h3>AI Software Dataset Developer </h3>
+            <p>October 2024 – Current</p>
+            <p>Outlier, Remote</p>
+            <ul>
+              <li>In this role I develop and refine datasets for training AI models with a focus on software code generation and optimization.</li>
+              <li>In doing so, I improve AI-generated code through dataset adjustments, enhancing model performance for programming tasks.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="experience-item">
         <img src={transgridImage} alt="Transgrid" className="experience-image" />
         <div className="experience-content-wrapper">
           <div className="experience-content">
@@ -33,7 +48,7 @@ function Experience() {
             <p>September 2024 – November 2024</p>
             <p>Transgrid, Haymarket</p>
             <ul>
-              <li>Selected as an incoming participant to UNSW’s Work Integrated Learning program.</li>
+              <li>In a team of four students completing a complex consulting task as a part of the Work Integrated Learning Program at UNSW.</li>
               <li>Project objective to find and evaluate methods and technologies with the potential to improve operability at
               Transgrid in support of the challenges wrought by the energy transition.</li>
             </ul>
