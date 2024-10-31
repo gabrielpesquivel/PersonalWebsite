@@ -6,7 +6,6 @@ function Contact() {
     <section id="contact" className="contact">
       <h2>Contact</h2>
       <p>Email: gabrielpawluesquivel@gmail.com</p>
-      <p>Phone: 0426622315</p>
       <p>
         LinkedIn: <a href="https://www.linkedin.com/in/gabriel-esquivel-9a65a4209">linkedin.com/in/gabriel-esquivel-9a65a4209</a>
       </p>
