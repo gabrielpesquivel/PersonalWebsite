@@ -10,11 +10,11 @@ const Blog = () => {
       content: 'Sufficient to say that my short tenure at EY has been the most rewarding and eye opening experience I have had to date. ' +
       'To begin with, the people that I met whilst working there were really great for a wide range of reasons. My fellow interns were ' +
       'friendly, inspiring and a pleasure to be around. The consultants a little older than I were extremely welcoming and hard working. ' +
-      'The management team were extrremely capable and always pushing me to work harder and step outside of my comfort zone. Whilst there, ' +
+      'The management team were extrremely capable and always pushing me to work harder and step outside of my comfort zone. \n\n Whilst there, ' +
       'I can confidently say that I am proud of the contributions I made to real client facing projects. I did not really expect to have ' +
       'a meaningful impact as just an intern, however my project director Gaurav provided an environment to push myself and do my best. ' +
-      'I really am thankful to him for his time and mentorship. Beyond this, I found the beautiful building on George Street very inspiring to ' +
-      'turn up to every day, and the day to day tasks enjoyable. \n\n ' +
+      'I really am thankful to him for his time and mentorship. \n\n Beyond this, I found the beautiful building on George Street very inspiring to ' +
+      'turn up to every day, and the day to day tasks enjoyable. This meaning in my day to day work is something I highly value in my future career.\n\n ' +
       'Who knows were my graduate role will be in the end, but I am very grateful for the experience I have had at EY over the past summer ' +
       'and look forward to what other experiences the near future holds. \n\n Gabriel'
     },
