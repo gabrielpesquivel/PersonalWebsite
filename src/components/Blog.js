@@ -4,6 +4,12 @@ import './Blog.css'; // Add your CSS file for styling
 const Blog = () => {
   const posts = [
     {
+      id: 3,
+      title: 'Blog Post 3: Reflecting on a Summer at EY',
+      date: 'January 25, 2025',
+      content: 'Test text.'
+    },
+    {
       id: 2,
       title: 'Blog Post 2: The Start of my Personal Finance Journey',
       date: 'July 23, 2024',
