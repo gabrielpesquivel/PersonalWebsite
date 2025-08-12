@@ -1,5 +1,5 @@
 .experience {
-  padding: 20px;
+  padding: 0;
   background: #1e1e1e; /* Dark section background */
   color: white;
   text-align: center;
@@ -9,30 +9,39 @@
   margin-bottom: 20px;
 }
 
-.experience-item {
-  display: flex;
+.react-spring-3d-carousel .slider-container {
   align-items: center;
-  justify-content: center;
-  max-width: 1000px; /* Adjust as necessary */
-  margin: 0 auto;
-  position: relative;
 }
 
-.experience-image {
-  max-width: 200px;
-  height: auto;
-  border-radius: 8px;
-  position: absolute;
-  left: -150px; /* Adjust as necessary to position image */
-}
-
-.experience-content-wrapper {
+.react-spring-3d-carousel .slider-content {
+  width: 100%;
   display: flex;
   justify-content: center;
-  width: 100%;
+  align-items: center;
 }
 
-.experience-content {
-  max-width: 800px; /* Adjust max-width as needed */
-  text-align: center; /* Center text within the content box */
+.react-spring-3d-carousel .slider-single {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.react-spring-3d-carousel .slider-single img {
+  width: 200%;
+  height: 200%;
+  object-fit: cover;
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience-text {
+  color: white;
+  text-align: center;
 }
