@@ -21,7 +21,7 @@ function Skills() {
   useEffect(() => {
     const interval = setInterval(() => {
       setGoToSlide(prev => (prev + 1) % skills.length);
-    }, 1000);
+    }, 1500);
     return () => clearInterval(interval);
   }, [skills.length]);
 
