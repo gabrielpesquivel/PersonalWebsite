@@ -28,7 +28,7 @@ function Skills() {
   return (
     <section id="skills" className="skills">
       <h2>Technical Skills</h2>
-      <div style={{ width: '80%', height: '200px', margin: '20px auto' }}>
+      <div style={{ width: '80%', height: '150px', margin: '20px auto' }}>
         <Carousel slides={slides} goToSlide={goToSlide} offsetRadius={2} showNavigation={false} />
       </div>
     </section>
