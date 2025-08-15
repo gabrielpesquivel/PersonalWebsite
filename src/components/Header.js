@@ -5,8 +5,9 @@ function Header() {
   return (
     <header className="header">
       <div className="header-content">
-        <h1>Gabriel Esquivel</h1>
-        <p>Mechatronic Engineering and Computer Science Undergraduate</p>
+        <h1> Gabriel Esquivel </h1>
+        <p> Lead Software Engineer @ NextCoin </p>
+        <p> Mechatronic Engineering Undergraduate </p>
       </div>
     </header>
   );
