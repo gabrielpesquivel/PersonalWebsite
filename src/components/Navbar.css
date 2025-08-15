@@ -1,40 +1,66 @@
 .navbar {
   position: fixed;
   width: 100%;
-  background: #333333; /* Dark navbar background */
+  background: #333;
   color: white;
-  padding: 1em;
+  padding: 1rem 2rem;
   display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  justify-content: space-between;
+}
+
+.navbar-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.navbar-name a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-name,
+.navbar-links,
+.navbar-placeholder {
+  flex: 1;
+}
+
+.navbar-placeholder {
+  text-align: right;
+}
+
+.navbar-links ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+  margin: 0;
+  padding: 0;
   justify-content: center;
 }
 
-.navbar ul {
-  list-style: none;
-  display: flex;
-  gap: 1em;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar a {
+.navbar-links a {
   color: white;
   text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  background-color: #555;
 }
 
 .navbar .home-link {
   font-weight: bold;
   color: white;
-
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-transform: uppercase; /* Optional: makes the text uppercase */
+  text-transform: uppercase;
 }
 
 .navbar .blog-link {
   font-weight: bold;
   color: white;
-
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-transform: uppercase; /* Optional: makes the text uppercase */
+  text-transform: uppercase;
 }
