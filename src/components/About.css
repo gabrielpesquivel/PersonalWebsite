@@ -47,3 +47,24 @@
 .about-text p {
   line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+  .about {
+    padding: 40px 15px;
+  }
+
+  .about h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+
+  .about-text {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .about-text p {
+    font-size: 1em;
+    line-height: 1.7;
+  }
+}

@@ -52,3 +52,30 @@
   color: white;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 40px 10px;
+  }
+
+  .experience h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+
+  .experience-carousel-container {
+    width: 90% !important;
+  }
+
+  .react-spring-3d-carousel .slider-single {
+    border: 1px solid #fff;
+  }
+
+  .experience-text h3 {
+    font-size: 1.2em;
+  }
+
+  .experience-text p {
+    font-size: 0.9em;
+  }
+}
