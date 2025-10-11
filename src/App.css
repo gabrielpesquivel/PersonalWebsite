@@ -6,6 +6,15 @@ body {
   text-align: center; /* Center text globally */
 }
 
+.main-content {
+  opacity: 0;
+  transition: opacity 1.2s ease-in;
+}
+
+.main-content.fade-in {
+  opacity: 1;
+}
+
 header {
   background: #1e1e1e; /* Dark header background */
   color: #ffffff;
