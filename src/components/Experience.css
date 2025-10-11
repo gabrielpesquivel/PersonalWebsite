@@ -33,12 +33,18 @@
   width: 200%;
   height: 200%;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .slide-content {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.slide-content img {
+  border-radius: 10px !important;
+  overflow: hidden;
 }
 
 .experience-text {

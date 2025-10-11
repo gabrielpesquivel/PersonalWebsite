@@ -28,7 +28,7 @@ function Experience() {
           <img src={EYImage} alt="2" />
           <div className="experience-text">
             <h3>EY</h3>
-            <p>AI & Data Intern Technology Consultant</p>
+            <p>AI & Data Technology Consultant Vacationer</p>
           </div>
         </div>
       ),
