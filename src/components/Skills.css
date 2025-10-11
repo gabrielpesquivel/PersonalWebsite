@@ -1,40 +1,99 @@
 .skills {
-  background: #1e1e1e; /* Dark section background */
+  background: #1e1e1e;
   padding: 60px 20px;
   color: white;
   text-align: center;
 }
 
-.skills-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 20px;
+.skills h2 {
+  margin-bottom: 50px;
+  font-size: 2.5em;
 }
 
-.skill-box {
-  flex: 1 1 30%; /* Flex-grow: 1, Flex-shrink: 1, Flex-basis: 30% */
-  background-color: #143454;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  min-width: 150px; /* Ensures boxes don't get too small */
-  min-height: 100px;
-  box-sizing: border-box;
-  display: flex; /* Add Flexbox to center content */
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
-  text-align: center; /* Center text within the box */
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.skill-category {
+  text-align: center;
+}
+
+.category-title {
+  font-size: 1.3em;
+  margin-bottom: 15px;
+  color: #4a9eff;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.skill-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.skill-pill {
+  background: linear-gradient(135deg, #2a2a2a 0%, #3a3a3a 100%);
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-size: 0.95em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid transparent;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-pill::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(74, 158, 255, 0.3), transparent);
+  transition: left 0.5s;
+}
+
+.skill-pill:hover::before {
+  left: 100%;
+}
+
+.skill-pill:hover {
+  background: linear-gradient(135deg, #4a9eff 0%, #357abd 100%);
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(74, 158, 255, 0.4);
+  border-color: #4a9eff;
+}
+
+.skill-pill:active {
+  transform: translateY(-2px) scale(1.02);
 }
 
 @media (max-width: 768px) {
-  .skill-box {
-    flex: 1 1 45%; /* Adjust size for smaller screens */
+  .skills-container {
+    padding: 0 20px;
   }
-}
 
-@media (max-width: 480px) {
-  .skill-box {
-    flex: 1 1 100%; /* Stack boxes vertically on very small screens */
+  .skill-category {
+    text-align: center;
+  }
+
+  .skill-pills {
+    justify-content: center;
+  }
+
+  .skill-pill {
+    padding: 10px 20px;
+    font-size: 0.9em;
   }
 }

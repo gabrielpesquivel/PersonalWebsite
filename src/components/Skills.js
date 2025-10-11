@@ -1,35 +1,31 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './Skills.css';
-import Carousel from 'react-spring-3d-carousel';
 
 function Skills() {
-  const [goToSlide, setGoToSlide] = useState(0);
-
-  const skills = [
-    "Python", "C", "C++", "Java", "JavaScript", "Svelte", "HTML", "CSS", "Assembly", "Matlab",
-    "React", "Flask", "npm", "Node.js", "Django", "Pytorch", "Keras", "OpenCV",
-    "Docker", "Git", "Amazon Web Services (AWS)", "Azure", "Google Cloud", "WatsonX"
-  ];
-
-  const slides = skills.map((skill, index) => {
-    return {
-      key: index,
-      content: <div className="skill-box">{skill}</div>
-    };
-  });
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setGoToSlide(prev => (prev + 1) % skills.length);
-    }, 1500);
-    return () => clearInterval(interval);
-  }, [skills.length]);
+  const skillCategories = {
+    "Languages": ["Python", "C", "C++", "Java", "JavaScript", "Assembly", "Matlab"],
+    "Frontend": ["React", "Svelte", "HTML", "CSS"],
+    "Backend & Frameworks": ["Flask", "Node.js", "Django", "npm"],
+    "AI & Machine Learning": ["PyTorch", "Keras", "OpenCV"],
+    "Cloud & DevOps": ["AWS", "Azure", "Google Cloud", "Docker", "Git", "WatsonX"]
+  };
 
   return (
     <section id="skills" className="skills">
       <h2>Technical Skills</h2>
-      <div style={{ width: '80%', height: '150px', margin: '20px auto' }}>
-        <Carousel slides={slides} goToSlide={goToSlide} offsetRadius={2} showNavigation={false} />
+      <div className="skills-container">
+        {Object.entries(skillCategories).map(([category, skills]) => (
+          <div key={category} className="skill-category">
+            <h3 className="category-title">{category}</h3>
+            <div className="skill-pills">
+              {skills.map((skill, index) => (
+                <div key={index} className="skill-pill">
+                  {skill}
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );
