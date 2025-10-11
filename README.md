@@ -45,8 +45,6 @@ I'm Gabriel Esquivel, Lead Software Engineer at NextCoin and a Mechatronic Engin
 - AI/ML: PyTorch, Keras, OpenCV
 - Cloud: AWS, Azure, Google Cloud, Docker
 
-```
-
 ## Project Structure
 
 ```
