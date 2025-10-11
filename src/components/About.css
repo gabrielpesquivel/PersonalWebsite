@@ -37,5 +37,11 @@
 
 .about-text {
   max-width: 850px;
-  text-align: center;
+  text-align: justify;
+  text-align-last: center;
+  text-justify: inter-word;
+}
+
+.about-text p {
+  line-height: 1.6;
 }
