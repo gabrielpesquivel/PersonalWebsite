@@ -64,7 +64,7 @@ function Experience() {
   return (
     <section id="experience" className="experience">
       <h2>Experience</h2>
-      <div style={{ width: '80%', height: '300px', margin: '0 auto' }}>
+      <div style={{ width: '60%', height: '300px', margin: '0 auto' }}>
         <Carousel slides={slides} goToSlide={0} offsetRadius={2} showNavigation={true} animationConfig={config.gentle} />
       </div>
     </section>
