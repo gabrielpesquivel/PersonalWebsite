@@ -17,7 +17,19 @@ function About() {
       <div className="about-content">
         <div className="about-text-container">
           <div className="about-text">
-            <p ref={p2Ref} style={{ opacity: 0 }}>What's up! I'm Gabe, a software engineer who enjoys building and exploring with new technology. I made this website to explore web development and share with anyone curious about what I am up to. I'm typically quite backend leaning, so I hope to develop my frontend skills with time.</p>
+            <p ref={p2Ref} style={{ opacity: 0 }}>
+              I sit at the intersection of hardware and intelligent software. As a dual-degree student in Mechatronic Engineering and Computer Science at UNSW, I am passionate about building systems that interact with the real world.
+              <br /><br />
+              Currently, I am the Lead Software Engineer at NextCoin, where I lead a team building a scalable fintech platform to change the way young professionals enter the workforce.
+              <br /><br />
+              My background spans:
+              <br />
+              • Embedded Systems: Developing embedded systems for Sunswift Racing's world-record solar car.
+              <br />
+              • Enterprise AI: Delivering cloud-hosted NLP solutions at EY.
+              <br />
+              • Robotics: Designing CAD assemblies at Mercury Innovation.
+            </p>
           </div>
         </div>
       </div>
