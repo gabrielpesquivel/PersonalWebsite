@@ -3,7 +3,7 @@
 A modern, responsive portfolio website showcasing my software engineering work, experience, and technical blog.
 
 ## 🔗 Live Demo
-[View Live Site](www.gabrielpesquivel.com) *(Update with your actual URL)*
+[View Live Site](www.gabrielpesquivel.com)
 
 ## About
 I'm Gabriel Esquivel, Lead Software Engineer at NextCoin and a Mechatronic Engineering undergraduate. This portfolio highlights my professional experience, projects, and technical skills across full-stack development, AI/ML, and cloud technologies.
