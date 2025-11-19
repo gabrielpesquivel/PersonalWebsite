@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #121212; /* Dark background */
+  background: #131314;
   color: #ffffff; /* Light text color */
   text-align: center; /* Center text globally */
 }
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background: #1e1e1e; /* Dark header background */
+  background: #131314;
   color: #ffffff;
   padding: 60px 20px;
   text-align: center;
@@ -56,7 +56,7 @@ header p {
 
 section {
   padding: 60px 20px;
-  background: #1e1e1e; /* Dark section background */
+  background: #131314;
   color: #ffffff;
   text-align: center; /* Center text in sections */
 }
@@ -66,7 +66,7 @@ section h2 {
 }
 
 footer {
-  background: #1e1e1e; /* Dark footer background */
+  background: #131314;
   color: #ffffff;
   text-align: center;
   padding: 20px;
