@@ -88,12 +88,10 @@ const Blog = () => {
               className={`blog-card ${expandedPost === post.id ? 'collapsed' : ''}`}
               onClick={expandedPost === post.id ? undefined : () => togglePost(post.id)}
             >
+              <img src="/gEMonogram.png" alt="Logo" className="blog-card-image" />
               <h2>{post.title}</h2>
               <p className="blog-date">{post.date}</p>
-              <div className="blog-teaser">
-                {post.content.substring(0, 250)}...
-              </div>
-              <div className="dropdown-indicator">▼</div>
+              <div className="dropdown-indicator"></div>
             </div>
           ))}
         </div>

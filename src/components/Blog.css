@@ -42,6 +42,14 @@
   overflow: hidden;
 }
 
+.blog-card-image {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 20px;
+  display: block;
+  object-fit: contain;
+}
+
 .blog-card.collapsed {
   opacity: 0.5;
 }
@@ -81,27 +89,21 @@
   margin-bottom: 1em;
 }
 
-.blog-teaser {
-  padding: 15px 0;
-  font-size: 0.95em;
-  line-height: 1.5;
-  color: #d5caca;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  flex: 1;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
 .dropdown-indicator {
   position: absolute;
-  bottom: 15px;
-  right: 15px;
-  font-size: 1.2em;
-  color: #ffffff;
+  bottom: 20px;
+  right: 20px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #4a9eff;
   pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.blog-card:hover .dropdown-indicator {
+  transform: scale(1.5);
+  box-shadow: 0 0 10px rgba(74, 158, 255, 0.6);
 }
 
 .blog-overlay {
@@ -210,16 +212,25 @@
     padding: 15px;
   }
 
+  .blog-card-image {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 15px;
+  }
+
+  .dropdown-indicator {
+    width: 10px;
+    height: 10px;
+    bottom: 15px;
+    right: 15px;
+  }
+
   .blog-card h2 {
     font-size: 1.1em;
   }
 
   .blog-date {
     font-size: 0.85em;
-  }
-
-  .blog-teaser {
-    font-size: 0.9em;
   }
 
   .blog-modal {
