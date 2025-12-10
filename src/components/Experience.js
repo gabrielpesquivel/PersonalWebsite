@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Carousel from 'react-spring-3d-carousel';
 import { config } from 'react-spring';
 import './Experience.css';
@@ -8,6 +8,8 @@ import EYImage from './Images/EY.png';
 import NextCoinImage from './Images/NextCoin.jpg';
 
 function Experience() {
+  const [goToSlide, setGoToSlide] = useState(0);
+
   const slides = [
     {
       key: 1,
@@ -61,11 +63,27 @@ function Experience() {
     return { ...slide, onClick: () => console.log(`Clicked on slide ${index + 1}`) };
   });
 
+  const handlePrev = () => {
+    setGoToSlide((prev) => (prev - 1 + slides.length) % slides.length);
+  };
+
+  const handleNext = () => {
+    setGoToSlide((prev) => (prev + 1) % slides.length);
+  };
+
   return (
     <section id="experience" className="experience">
       <h2>Experience</h2>
-      <div className="experience-carousel-container" style={{ width: '60%', height: '300px', margin: '0 auto' }}>
-        <Carousel slides={slides} goToSlide={0} offsetRadius={2} showNavigation={true} animationConfig={config.gentle} />
+      <div className="carousel-wrapper">
+        <button className="carousel-nav-btn prev-btn" onClick={handlePrev}>
+          ‹
+        </button>
+        <div className="experience-carousel-container" style={{ width: '100%', maxWidth: '600px', height: '300px', margin: '0 auto' }}>
+          <Carousel slides={slides} goToSlide={goToSlide} offsetRadius={2} showNavigation={false} animationConfig={config.gentle} />
+        </div>
+        <button className="carousel-nav-btn next-btn" onClick={handleNext}>
+          ›
+        </button>
       </div>
     </section>
   );
