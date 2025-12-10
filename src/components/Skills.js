@@ -3,7 +3,7 @@ import './Skills.css';
 
 function Skills() {
   const skillCategories = {
-    "Languages": ["Python", "C", "C++", "Java", "JavaScript", "TypeScript", "Assembly", "Matlab"],
+    "Languages": ["Python", "TypeScript", "C", "C++", "Rust", "Java", "JavaScript", "Assembly", "Matlab"],
     "Frontend": ["React", "Vue", "Nuxt", "Svelte", "HTML", "CSS"],
     "Backend & Frameworks": ["Express", "Flask", "Node.js", "Django", "npm"],
     "AI & Machine Learning": ["PyTorch", "Keras", "OpenCV"],
