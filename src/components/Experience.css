@@ -78,6 +78,22 @@
 .experience-text {
   color: white;
   text-align: center;
+  width: 100%;
+}
+
+.experience-text h3 {
+  margin: 10px 0 5px 0;
+  font-size: 1.3em;
+  white-space: nowrap;
+}
+
+.experience-text p {
+  margin: 0;
+  font-size: 0.9em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 10px;
 }
 
 /* Carousel wrapper for positioning nav buttons */
@@ -150,11 +166,12 @@
   }
 
   .experience-text h3 {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 
   .experience-text p {
-    font-size: 0.9em;
+    font-size: 0.75em;
+    padding: 0 5px;
   }
 
   .carousel-wrapper {
