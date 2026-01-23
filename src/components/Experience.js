@@ -5,7 +5,7 @@ import './Experience.css';
 import mercuryImage from './Images/mercury.jpeg';
 import sunswiftImage from './Images/sunswift.png';
 import EYImage from './Images/EY.png';
-import NextCoinImage from './Images/NextCoin.jpg';
+import LadderImage from './Images/Ladder.svg';
 
 function Experience() {
   const [goToSlide, setGoToSlide] = useState(0);
@@ -15,9 +15,9 @@ function Experience() {
       key: 1,
       content: (
         <div className="slide-content">
-          <img src={NextCoinImage} alt="1" />
+          <img src={LadderImage} alt="1" />
           <div className="experience-text">
-            <h3>NextCoin</h3>
+            <h3>Ladder</h3>
             <p>Lead Software Engineer</p>
           </div>
         </div>

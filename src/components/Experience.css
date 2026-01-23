@@ -73,6 +73,9 @@
 .slide-content img {
   border-radius: 10px !important;
   overflow: hidden;
+  max-width: 250px;
+  max-height: 150px;
+  object-fit: contain;
 }
 
 .experience-text {

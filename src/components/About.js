@@ -20,7 +20,7 @@ function About() {
             <p ref={p2Ref} style={{ opacity: 0 }}>
               I sit at the intersection of hardware and intelligent software. As a dual-degree student in Mechatronic Engineering and Computer Science at UNSW, I am passionate about building systems that interact with the real world.
               <br /><br />
-              Currently, I am the Lead Software Engineer at NextCoin, where I lead a team building a scalable fintech platform to change the way young professionals enter the workforce.
+              Currently, I am the Lead Software Engineer at Ladder, where I lead a team building a scalable fintech platform to change the way young professionals enter the workforce.
               <br /><br />
               My background spans:
               <br />
