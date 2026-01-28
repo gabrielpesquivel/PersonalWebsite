@@ -1,15 +1,24 @@
 import React from 'react';
 import './Projects.css';
 import CVDemoImage from './Images/CVDemo.png';
+import BootShowroomImage from './Images/bootshowroom.png';
 
 function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'Gesture Recognition with Real Time Hand Tracking',
-      description: 'Developed a computer vision system using OpenCV2 and MediaPipe to map human hand movements and detect which finger is raised the highest. Implements real-time hand tracking and gesture recognition.',
+      title: 'Gesture Recognition System',
+      description: 'A computer vision system to map human hand movements and detect important features with real-time hand tracking technology.',
       image: CVDemoImage,
       technologies: ['Python', 'OpenCV2', 'MediaPipe', 'Computer Vision'],
+    },
+    {
+      id: 2,
+      title: 'BootInk 3D Boot Showroom',
+      description: 'An interactive 3D showroom where users can explore and customise boots in a virtual environment.',
+      image: BootShowroomImage,
+      technologies: ['Three.js', 'React', 'WebGL'],
+      isUnderConstruction: true,
     },
   ];
 
@@ -18,9 +27,12 @@ function Projects() {
       <h2>Projects</h2>
       <div className="projects-grid">
         {projects.map((project) => (
-          <div key={project.id} className="project-card">
+          <div key={project.id} className={`project-card ${project.isUnderConstruction ? 'under-construction' : ''}`}>
             <div className="project-image-container">
               <img src={project.image} alt={project.title} className="project-image" />
+              {project.isUnderConstruction && (
+                <div className="coming-soon-badge">Coming Soon</div>
+              )}
             </div>
             <div className="project-content">
               <h3>{project.title}</h3>

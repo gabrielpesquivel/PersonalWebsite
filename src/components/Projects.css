@@ -79,6 +79,42 @@
   transform: scale(1.05);
 }
 
+/* Under Construction Styles */
+.project-card.under-construction {
+  position: relative;
+}
+
+.project-card.under-construction .project-image-container {
+  position: relative;
+}
+
+.project-card.under-construction .project-image {
+  filter: blur(6px);
+  opacity: 0.7;
+}
+
+.project-card.under-construction:hover .project-image {
+  filter: blur(4px);
+  opacity: 0.8;
+}
+
+.coming-soon-badge {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(135deg, #4a9eff, #6bb3ff);
+  color: white;
+  padding: 12px 24px;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 10;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(74, 158, 255, 0.5);
+}
+
 .project-content {
   padding: 25px;
 }
