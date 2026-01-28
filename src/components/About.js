@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './About.css';
-import { stagger, animate } from "motion";
+import { animate } from "motion";
 
 function About() {
   const h2Ref = useRef(null);
