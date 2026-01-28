@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './About.css';
-import { animate } from "motion";
+import { stagger, animate } from "motion";
 
 function About() {
   const h2Ref = useRef(null);
@@ -19,9 +19,9 @@ function About() {
           <div className="about-text">
             <p ref={p2Ref} style={{ opacity: 0 }}>
               I am a Backend Software Engineer based in Sydney with a unique blend of enterprise and startup experience.
-            </p>
-            <p>
-              My background spans from navigating complex Data & AI consulting projects at EY to driving product development as a Lead Software Engineer at Ladder.inc. This background allows me to blend the rigor and structure of enterprise engineering with the agility and ownership required in startup environments.
+              <br /><br />
+              My background spans from navigating complex Data & AI consulting projects at EY to driving product development as a Lead Software Engineer at Ladder.inc. This allows me to blend the rigor and structure of enterprise engineering with the agility and ownership required in startup environments.
+              <br />
             </p>
           </div>
         </div>
