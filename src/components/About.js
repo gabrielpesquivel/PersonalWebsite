@@ -18,17 +18,10 @@ function About() {
         <div className="about-text-container">
           <div className="about-text">
             <p ref={p2Ref} style={{ opacity: 0 }}>
-              I sit at the intersection of hardware and intelligent software. As a dual-degree student in Mechatronic Engineering and Computer Science at UNSW, I am passionate about building systems that interact with the real world.
-              <br /><br />
-              Currently, I am the Lead Software Engineer at NextCoin, where I lead a team building a scalable fintech platform to change the way young professionals enter the workforce.
-              <br /><br />
-              My background spans:
-              <br />
-              • Embedded Systems: Developing embedded systems for Sunswift Racing's world-record solar car.
-              <br />
-              • Enterprise AI: Delivering cloud-hosted NLP solutions at EY.
-              <br />
-              • Robotics: Designing CAD assemblies at Mercury Innovation.
+              I am a Backend Software Engineer based in Sydney with a unique blend of enterprise and startup experience.
+            </p>
+            <p>
+              My background spans from navigating complex Data & AI consulting projects at EY to driving product development as a Lead Software Engineer at Ladder.inc. This background allows me to blend the rigor and structure of enterprise engineering with the agility and ownership required in startup environments.
             </p>
           </div>
         </div>
