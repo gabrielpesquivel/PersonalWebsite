@@ -4,6 +4,7 @@ body {
   background: #131314;
   color: #ffffff; /* Light text color */
   text-align: center; /* Center text globally */
+  overflow-x: hidden;
 }
 
 .main-content {
