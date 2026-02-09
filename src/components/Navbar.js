@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 import { Link as RouterLink } from 'react-router-dom';
 import { FaLinkedin, FaGithub, FaEnvelope, FaBars, FaTimes } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
-import './Navbar.css';
+import '../styles/Navbar.css';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

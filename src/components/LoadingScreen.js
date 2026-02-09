@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './LoadingScreen.css';
+import '../styles/LoadingScreen.css';
 
 function LoadingScreen({ onComplete }) {
   const [displayedText, setDisplayedText] = useState('');

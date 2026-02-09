@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import './About.css';
+import '../styles/About.css';
 import { animate } from "motion";
 
 function About() {

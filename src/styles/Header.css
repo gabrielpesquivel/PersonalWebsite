@@ -1,6 +1,6 @@
 .header {
   background-color: #0b1011;
-  background-image: url('./Images/sydney-skyline.jpg');
+  background-image: url('../components/Images/sydney-skyline.jpg');
   background-position: center 20%;
   background-size: cover;
   overflow: hidden;

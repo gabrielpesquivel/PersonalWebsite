@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Carousel from 'react-spring-3d-carousel';
 import { config } from 'react-spring';
-import './Experience.css';
+import '../styles/Experience.css';
 import mercuryImage from './Images/mercury.jpeg';
 import sunswiftImage from './Images/sunswift.png';
 import EYImage from './Images/EY.png';

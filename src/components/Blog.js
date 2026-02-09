@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Blog.css'; // Add your CSS file for styling
+import '../styles/Blog.css'; // Add your CSS file for styling
 
 const Blog = () => {
   const [expandedPost, setExpandedPost] = useState(null);
