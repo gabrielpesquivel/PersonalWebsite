@@ -1,19 +1,11 @@
 import React from 'react';
 import '../styles/Projects.css';
-import CVDemoImage from './Images/CVDemo.png';
 import BootShowroomImage from './Images/bootshowroom.png';
 
 function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'Gesture Recognition System',
-      description: 'A computer vision system to map human hand movements and detect important features with real-time hand tracking technology.',
-      image: CVDemoImage,
-      technologies: ['Python', 'OpenCV2', 'MediaPipe', 'Computer Vision'],
-    },
-    {
-      id: 2,
       title: 'BootInk 3D Boot Showroom',
       description: 'An interactive 3D showroom where users can explore and customise boots in a virtual environment.',
       image: BootShowroomImage,
