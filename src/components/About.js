@@ -18,9 +18,9 @@ function About() {
         <div className="about-text-container">
           <div className="about-text">
             <p ref={p2Ref} style={{ opacity: 0 }}>
-              I am a Backend Software Engineer based in Sydney with a unique blend of enterprise and startup experience.
+              I'm Gabriel, Co-Founder and COO of BootInk, based in Sydney.
               <br /><br />
-              My background spans from navigating complex Data & AI consulting projects at EY to driving product development as a Lead Software Engineer at Ladder.inc. This allows me to blend the rigor and structure of enterprise engineering with the agility and ownership required in startup environments.
+              Before BootInk, I led engineering at Ladder and worked on Data & AI consulting at EY. That mix taught me how enterprises build with rigor and how startups move with speed. BootInk is where I put both to work.
               <br />
             </p>
           </div>

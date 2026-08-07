@@ -10,7 +10,7 @@ function Header() {
         <div className="title-brand">
           <h1 className="presentation-title">Gabriel Esquivel</h1>
         </div>
-        <p className="presentation-subtitle">Backend Software Engineer</p>
+        <p className="presentation-subtitle">Co-Founder & COO at BootInk</p>
       </div>
       <div
         className="moving-clouds"
